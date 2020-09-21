@@ -11,7 +11,7 @@
 }
 
 .item1{
-    background: url(../../images/slider/1.jpg);
+    background: url(../../images/slider/hogwarts-2036645_1920.jpg);
     height: 950px;
     display: flex!important;
     justify-content: center;
@@ -19,9 +19,8 @@
     width: 100%;
     position: relative;
 }
-
 .item2{
-    background: url(../../images/slider/hogwarts-2036645_1920.jpg);
+    background: url(../../images/slider/artem-maltsev-3n7DdlkMfEg-unsplash.jpg);
     height: 950px;
     display: flex!important;
     justify-content: center;
@@ -30,7 +29,30 @@
     position: relative;
     background-repeat: no-repeat;
 }
-.item1:before,.item2:before{
+
+.item3{
+    background: url(../../images/slider/castle-408835_1920.jpg);
+    height: 950px;
+    display: flex!important;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.item5{
+    background: url(../../images/slider/bich-tuyen-tS-jh0M6JoA-unsplash.jpg);
+    height: 950px;
+    display: flex!important;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.item1:before,.item2:before, .item3:before, .item5:before{
   content: "";
   position: absolute;
   left: 0;
@@ -137,7 +159,7 @@
 
 .slick-prev:hover,
 .slick-next:hover {
-  background: #5e9a8e;
+  background: #4350a6;
   border: none;
 }
 
