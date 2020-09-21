@@ -21,13 +21,14 @@
 }
 
 .item2{
-    background: url(../../images/slider/2.jpg);
+    background: url(../../images/slider/hogwarts-2036645_1920.jpg);
     height: 950px;
-     display: flex!important;
+    display: flex!important;
     justify-content: center;
     flex-direction: column;
     width: 100%;
     position: relative;
+    background-repeat: no-repeat;
 }
 .item1:before,.item2:before{
   content: "";
@@ -104,7 +105,7 @@
     border-radius: 50%;
     opacity: 0;
     visibility: hidden;
-    transition: all .3s; 
+    transition: all .3s;
 }
 .slick-slider:hover .slick-prev,
 .slick-slider:hover .slick-next {
@@ -158,29 +159,29 @@
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);
     }
-  
+
     50% {
       -webkit-transform: scale3d(1.05, 1.05, 1.05);
       transform: scale3d(1.05, 1.05, 1.05);
     }
-  
+
     to {
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);
     }
   }
-  
+
   @keyframes pulse {
     from {
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);
     }
-  
+
     50% {
       -webkit-transform: scale3d(1.05, 1.05, 1.05);
       transform: scale3d(1.05, 1.05, 1.05);
     }
-  
+
     to {
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);
