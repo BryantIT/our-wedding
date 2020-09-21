@@ -13,7 +13,7 @@ class SimpleSlider extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2500,
+      autoplaySpeed: 6000,
       fade: true
     };
     return (<Slider {...settings}>
@@ -66,7 +66,6 @@ class SimpleSlider extends Component {
           </div>
         </div>
       </div>
-      
       <div className="item5">
         <div className="container">
           <div className="container">
